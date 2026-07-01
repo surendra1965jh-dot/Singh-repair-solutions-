@@ -186,3 +186,106 @@ color:#555;
     color:#555;
     line-height:1.7;
 }
+/* Contact Section */
+
+#contact{
+padding:80px 8%;
+background:#f4f8ff;
+}
+
+.contact-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+gap:40px;
+}
+
+.contact-info,
+.contact-form{
+
+background:white;
+
+padding:35px;
+
+border-radius:15px;
+
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+
+}
+
+.contact-info h3,
+.contact-form h3{
+
+margin-bottom:20px;
+
+color:#0d6efd;
+
+}
+
+.contact-info p{
+
+margin-bottom:15px;
+
+line-height:28px;
+
+}
+
+.contact-info ul{
+
+padding-left:20px;
+
+}
+
+.contact-info a{
+
+color:#0d6efd;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+.contact-form input,
+.contact-form textarea{
+
+width:100%;
+
+padding:15px;
+
+margin-bottom:15px;
+
+border:1px solid #ddd;
+
+border-radius:8px;
+
+font-size:16px;
+
+}
+
+.contact-form button{
+
+width:100%;
+
+padding:15px;
+
+background:#0d6efd;
+
+color:white;
+
+border:none;
+
+border-radius:8px;
+
+font-size:18px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.contact-form button:hover{
+
+background:#084298;
+
+}
