@@ -289,3 +289,112 @@ transition:.3s;
 background:#084298;
 
 }
+/* Reviews */
+
+#reviews{
+
+padding:80px 8%;
+
+background:white;
+
+}
+
+.review-container{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
+}
+
+.review-card{
+
+background:#f8f9fa;
+
+padding:30px;
+
+border-radius:15px;
+
+text-align:center;
+
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.review-card h4{
+
+margin-top:20px;
+
+color:#0d6efd;
+
+}
+
+/* Footer */
+
+footer{
+
+background:#0b5ed7;
+
+color:white;
+
+text-align:center;
+
+padding:50px 20px;
+
+}
+
+footer a{
+
+color:white;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+/* Floating Call */
+
+.floating-call{
+
+position:fixed;
+
+bottom:25px;
+
+left:25px;
+
+background:#0d6efd;
+
+color:white;
+
+width:60px;
+
+height:60px;
+
+border-radius:50%;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:30px;
+
+text-decoration:none;
+
+box-shadow:0 8px 20px rgba(0,0,0,.3);
+
+transition:.3s;
+
+z-index:999;
+
+}
+
+.floating-call:hover{
+
+transform:scale(1.1);
+
+}
